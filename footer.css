@@ -1,0 +1,283 @@
+/* footer-top */
+.footer-top {
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  height: 82px;
+  border-radius: 0 0 3.6rem 3.6rem;
+}
+/* footer */
+.footer {
+  width: 100%;
+  background-color: black;
+}
+.footers {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: space-around;
+  max-width: 1166px;
+  flex-wrap: wrap;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.footerlogo {
+  width: 140px;
+  height: 18px;
+  cursor: pointer;
+}
+.footerlogo img {
+  width: 100%;
+  height: 100%;
+}
+.hamtrah {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.hamtrah1 {
+  color: white;
+  background-image: url(https://unread.today/img/btn-black.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 323px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 12px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.hamtrah1:hover {
+  transform: translateX(10px);
+
+  .icon {
+    background-color: #0078f6;
+    border: 10px solid #3399ff;
+  }
+}
+.hamtrah1-ps {
+  margin-left: 20px;
+  width: 230px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hamtrah1-ps :nth-child(1) {
+  color: rgba(204, 196, 196, 0.49);
+  font-weight: 100;
+  font-size: 13px;
+}
+.hamtrah1-ps :nth-child(2) {
+  font-weight: 500;
+  font-size: 15px;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid transparent;
+}
+
+.icon i {
+  color: white;
+}
+.download {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+.down-img1,
+.down-img2 {
+  width: 144px;
+  height: 45px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.down-img1 img,
+.down-img2 img {
+  height: 100%;
+  width: 100%;
+}
+/* footer-right */
+.category2 {
+  display: flex;
+  gap: 70px;
+}
+.bulan li:hover,
+.noname li:hover,
+.zochloh a:hover {
+  color: white;
+  transform: scale(1.01);
+  transform: translateX(3px);
+  transition: 0.2s;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 500px;
+}
+.contact {
+  color: white;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.contact ul {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+.copyright {
+  color: rgb(169, 165, 165);
+  font-size: 11px;
+  font-weight: 100;
+  width: 500px;
+}
+.bulan {
+  color: white;
+}
+.bulanguud {
+  font-size: 16px;
+  color: #0078f6;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.bulan li,
+.noname li {
+  color: rgb(169, 165, 165);
+  font-size: 13px;
+}
+.bulan ul,
+.company ul,
+.noname ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+.noname {
+  color: white;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.noname ul {
+  margin-top: 50px;
+}
+
+.company {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.company-ps {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: rgb(169, 165, 165);
+  font-size: 13px;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.company :nth-child(2) {
+  width: 150px;
+}
+.zochloh {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.zochloh a {
+  color: white;
+  text-decoration: none;
+}
+.footer-social {
+  max-width: 1151px;
+  height: 72px;
+  margin: auto;
+  margin-top: 70px;
+  color: rgba(128, 128, 128, 0.39);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.fa-brands.fa-square-facebook.fa-2x:hover {
+  color: #475993;
+}
+.fa-brands.fa-twitter.fa-2x:hover {
+  color: #1da2f2;
+}
+.fa-brands.fa-instagram.fa-2x:hover {
+  color: pink;
+}
+.fa-brands.fa-linkedin-in.fa-2x:hover {
+  color: #0077b5;
+}
+.fa-brands.fa-youtube.fa-2x:hover {
+  color: red;
+}
+.fa-brands.fa-soundcloud.fa-2x:hover {
+  color: #f50;
+}
+@media screen and (max-width: 840px) {
+  .footers {
+    justify-content: center;
+  }
+  .footer-left {
+  }
+  .footer-right {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    height: 1200px;
+    display: block;
+  }
+  .footer-left {
+    margin-left: 50px;
+    width: 100%;
+  }
+  .copyright {
+    margin-left: 30px;
+    width: 400px;
+    font-size: 13px;
+  }
+  .company :nth-child(2) {
+    width: 100%;
+  }
+  .contact :nth-child(4) {
+    display: none;
+  }
+  .contact {
+    margin-left: 30px;
+  }
+  .category2 {
+    margin-left: 30px;
+    gap: 50px;
+  }
+  .footer-social {
+  }
+}
